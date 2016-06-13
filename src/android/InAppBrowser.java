@@ -119,7 +119,7 @@ public class InAppBrowser extends CordovaPlugin {
             final String target = t;
             final HashMap<String, Boolean> features = parseFeature(args.optString(2));
 
-            Log.d(LOG_TAG, "target = " + target);
+            Log.d(LOG_TAG, "******target = " + target);
 
             this.cordova.getActivity().runOnUiThread(new Runnable() {
                 @Override
